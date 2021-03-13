@@ -1,0 +1,2 @@
+# Definition
+When a [straight line](Line.md) standing on a straight line makes the adjacent [angles](Angle.md) equal to one another, each of the equal angles is [right](Angle.md) and the straight line standing on the other is called a perpendicular to that on which it stands.
