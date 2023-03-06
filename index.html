@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <title>Beginner Chess Camp - Day 1</title>
+
+        <link rel="stylesheet" href="dist/reset.css">
+        <link rel="stylesheet" href="dist/reveal.css">
+        <link rel="stylesheet" href="dist/theme/night.css">
+
+        <!-- Theme used for syntax highlighted code -->
+        <link rel="stylesheet" href="plugin/highlight/monokai.css">
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section><h1>Welcome to Beginner Chess Camp</h1></section>
+
+                <section><img width=600 src="https://fen2png.com/api/?fen=r1b1k1nr/p2p1ppp/n2B4/1p1NPN1P/6P1/3P1Q2/P1P1K3/q5b1%20w%20kq%20-%20-&raw=true"></section>
+
+                <section><h1>Introducing the Pieces</h1></section>
+
+                <section>
+                    <section><h2>The King</h2><p>Your most important piece</p></section>
+                    <section><iframe width=900 height=600 src="https://lichess.org/study/embed/YEcM5hqH/vHEauDv0?bg=dark" frameborder=0></iframe></section>
+                    <section><h3>Notes:</h3><ul>
+                        <li>Slow and fragile, but absolutely must be protected.</li>
+                        <li>It's the only piece that you <em>cannot</em> let be captured.</li>
+                        <li>It starts to be much more useful toward the end of the game.</li>
+                    </ul></section>
+                </section>
+
+                <section>
+                    <section><h2>The Pawn</h2><p>Your frontline fighters</p></section>
+                    <section><iframe width=900 height=600 src="https://lichess.org/study/embed/YEcM5hqH/FIcOVNZk?bg=dark" frameborder=0></iframe></section>
+                    <section><h3>Notes:</h3><ul>
+                        <li>You cannot 'save' your first move boost. Use it or lose it!</li>
+                        <li>Pawns are the only piece that captures different than it moves.</li>
+                        <li>Pawns like to be together, protecting one another.</li>
+                    </ul></section>
+                </section>
+
+                <section>
+                    <section><h2>The Knight</h2><p>The tricky horse</p></section>
+                </section>
+
+                <section>
+                    <section><h2>The Bishop</h2><p>The diagonal sniper</p></section>
+                </section>
+
+                <section>
+                    <section><h2>The Rook</h2><p>The tower of power</p></section>
+                </section>
+
+                <section><h2>The Queen</h2><p>The almighty piece</p></section>
+
+                <section>
+                    <section>Setting up your Board</section>
+                    <section><iframe width=900 height=600 src="https://lichess.org/analysis/standard"></iframe></section>
+                </section>
+            </div>
+        </div>
+
+        <script src="dist/reveal.js"></script>
+        <script src="plugin/notes/notes.js"></script>
+        <script src="plugin/markdown/markdown.js"></script>
+        <script src="plugin/highlight/highlight.js"></script>
+        <script>
+            // More info about initialization & config:
+            // - https://revealjs.com/initialization/
+            // - https://revealjs.com/config/
+            Reveal.initialize({
+                hash: true,
+
+                // Learn about plugins: https://revealjs.com/plugins/
+                plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+            });
+        </script>
+    </body>
+</html>
